@@ -44,7 +44,7 @@ li {
   background: rebeccapurple;
   color: white;
   padding: 20px;
-  position: absolute;
+  position: fixed;
   width: 15%;
   /* view height is like percentage */
   height: 100vh;
