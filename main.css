@@ -8,7 +8,6 @@
 body {
   background: blanchedalmond;
 }
-
 #title {
   font-size: 32px;
   line-height: 75px;
@@ -54,6 +53,10 @@ li {
 
 .sidebar a {
   color: white;
+}
+
+details{
+  list-style: show;
 }
 
 @media only screen and (max-width: 800px) {
