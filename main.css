@@ -51,12 +51,42 @@ li {
   right: 0;
 }
 
-.sidebar a {
+.sidebar a, details a {
   color: white;
 }
 
-details{
-  list-style: show;
+details a:hover {
+  text-decoration: underline;
+  font-size: 110%;
+}
+
+details {
+  padding: 10px;
+  background: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+
+}
+details:hover {
+  background: tomato;
+  cursor: pointer;
+}
+
+summary:focus {
+  outline: none;
+}
+
+details[open] {
+  background: rebeccapurple;
+  transition: height 2s;
+}
+
+details > summary{
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
