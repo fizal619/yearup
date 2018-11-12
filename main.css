@@ -65,7 +65,7 @@ details {
   background: rebeccapurple;
   color: white;
   border-radius: 5px;
-  animation: slide-in 2.5s;
+  animation: slide-in 1s;
 
 }
 details:hover {
