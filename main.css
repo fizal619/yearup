@@ -164,3 +164,7 @@ details > summary::-webkit-details-marker {
     background: rebeccapurple;
   }
 }
+
+audio {
+  width: 100%;
+}
