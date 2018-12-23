@@ -28,6 +28,21 @@ h2 {
   margin-bottom: 20px; */
   margin: 20px 20% 20px 20% ;
 }
+.temp_img{
+  display: block;
+ 
+
+}
+.temp_img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 200px;
+
+
+
+}
 
 a {
   text-decoration: none;
@@ -123,6 +138,7 @@ details > summary::-webkit-details-marker {
     font-size: 24px;
     line-height: 32px;
   }
+  
 
   /* Keyframes example */
   @keyframes shrink-footer {
@@ -167,4 +183,24 @@ details > summary::-webkit-details-marker {
 
 audio {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+  .temp_img img{
+    height: 150px;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .temp_img img{
+    height: 190px;
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .temp_img img{
+    height: 250px;
+    width: 500px;
+  }
 }
